@@ -1,5 +1,15 @@
+body {
+  margin: 0;
+  background-color: #23252c;
+}
+
+#root {
+  padding: 4em 0;
+}
+
 .App {
   margin: auto;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
