@@ -1,0 +1,102 @@
+.header-container {
+  background-color: #1a1b21;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 25em;
+  height: 20em;
+  object-fit: none;
+  object-position: 60% 20%;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 0.3em;
+}
+
+.title-container h5 {
+  color: #f3bf99;
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.title-container a {
+  font-size: 0.9rem;
+  line-height: 150%;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 1em 1em;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn-container .btn {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 8.5em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-container .email {
+  margin: 1em 2em;
+  color: #374151;
+  background-color: #d1d5db;
+}
+
+.btn-container .email:hover,
+.btn-container .email:focus {
+  background-color: #b3b8c0;
+}
+
+.btn-container .email:active {
+  transform: scale(0.99);
+}
+
+.btn-container .linkedin {
+  margin: 1em 2em;
+  color: #ffffff;
+  background-color: #5093e2;
+}
+
+.btn-container .linkedin:hover,
+.btn-container .linkedin:focus {
+  background-color: #3c7cc4;
+}
+
+.btn-container .linkedin:active {
+  transform: scale(0.98);
+}
+
+.btn-container svg {
+  width: 1.3em;
+  padding-right: 0.7em;
+}
+
+.btn-container .email svg {
+  fill: #1e1f26;
+}
+
+.btn-container .linkedin svg {
+  fill: #ffffff;
+}

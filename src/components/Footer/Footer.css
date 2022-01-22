@@ -1,0 +1,13 @@
+.footer-container {
+  padding: 1.5em 5em;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #161619;
+}
+
+.icon {
+  display: flex;
+  fill: #918e9b;
+  width: 2em;
+}

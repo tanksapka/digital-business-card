@@ -1,3 +1,5 @@
+import "./Body.css";
+
 export default function Body() {
   return (
     <main className="main-container">
